@@ -1,1 +1,44 @@
-test
+
+<!DOCTYPE html>
+<html>
+<title>CenDerNet: Center and Curvature Representations for Render-and-Compare 6D Pose Estimation</title>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CenDerNet</h1>
+        <h2>Center and Curvature Representations for Render-and-Compare 6D Pose Estimation</h2>
+        <p>
+            Peter De Roovere, Rembert Daems, Jonathan Croenen, Taoufik Bourgana, Joris de Hoog, Francis wyffels
+        </p>
+    </header>
+
+    <a href="https://arxiv.org/abs/2208.09829" class="button">
+        <span class="material-icons">feed</span>
+        <br/>
+        Paper
+    </a>
+    
+    <h2>Abstract</h2>
+    <p>
+        We introduce CenDerNet, a framework for 6D pose estimation from multi-view images based on center and curvature representations. Finding precise poses for reflective, textureless objects is a key
+        challenge for industrial robotics. Our approach consists of three stages:
+        First, a fully convolutional neural network predicts center and curvature heatmaps for each view; Second, center heatmaps are used to detect
+        object instances and find their 3D centers; Third, 6D object poses are estimated using 3D centers and curvature heatmaps. By jointly optimizing
+        poses across views using a render-and-compare approach, our method
+        naturally handles occlusions and object symmetries. We show that CenDerNet outperforms previous methods on two industry-relevant datasets:
+        DIMO and T-LESS.
+    </p>
+
+</body>
+
+</html>
